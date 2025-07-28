@@ -15,7 +15,9 @@ html {
   min-height: 100%;
 }
 
-
+.navbar-burger{
+  color: #fff;
+}
 .navbar-item {
   line-height: 38px;
   font-weight: 600;
@@ -134,6 +136,12 @@ a.navbar-item {
   height: 24px;
 }
 
+.vertical-line{
+  border-left: 2px solid white; 
+  height: 300px; 
+  width: 1px; 
+  margin: 0 auto;
+}
 .main-content {
   padding-top: 2rem;
   color: #fff; 
@@ -163,6 +171,12 @@ a.navbar-item {
 @media (max-width: 599px) {
   .main-content .section-dark.resume {
     padding-top: 75px;
+  }
+  .vertical-line{
+    height: 0px;
+    border-bottom: 2px solid white;  
+    width: 300px; 
+    margin: 0 auto;
   }
 }
 
