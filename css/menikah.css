@@ -14,7 +14,9 @@ html {
   width: 100%;
   min-height: 100%;
 }
-
+#tentang-pasangan{
+  background-color: #57003b;
+}
 .navbar-burger{
   color: #fff;
 }
@@ -104,6 +106,17 @@ a.navbar-item {
   font-weight: 400;
   font-style: normal;
 }
+.tangerine-regular {
+  font-family: "Tangerine", cursive !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li {
   display: inline-block;
@@ -143,7 +156,7 @@ a.navbar-item {
   margin: 0 auto;
 }
 .main-content {
-  padding-top: 2rem;
+  padding-top: 0rem;
   color: #fff; 
   font-family: 'Raleway', sans-serif;
 }
