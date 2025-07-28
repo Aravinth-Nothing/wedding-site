@@ -15,9 +15,6 @@ html {
   min-height: 100%;
 }
 
-.header-wrapper {
-  padding-bottom: 30px;
-}
 
 .navbar-item {
   line-height: 38px;
@@ -100,6 +97,11 @@ a.navbar-item {
   letter-spacing: 1px;
   font-size: 1rem;
 }
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li {
   display: inline-block;
@@ -114,7 +116,9 @@ a.navbar-item {
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a {
   color: #DBAC34;
 }
-
+.hero-body{
+  padding: 12rem 3.5rem;
+}
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
   color: #DBAC34;
   transition: all .2s ease-in-out;
@@ -374,7 +378,7 @@ vertical-align: middle;
 
 
 .main-content .no-padding-top {
-  padding-top: 0px;
+  padding-top: 23px;
 }
 
 .footer img{
